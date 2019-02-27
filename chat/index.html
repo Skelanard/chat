@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <base <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>Wirtualny Pan Ryszard</title>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/png">
+    <link href="css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
+    <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <p id="title">WIRTUALNY PAN RYSZARD </p>
+
+    <p id="chatLog"></p>
+
+
+
+    <input id="userBox" type="text" onkeydown="if (event.keyCode == 13) {talk()}">
+    <button class="send" type="submit" value="Wyślij" onclick="talk()"> WYŚLIJ </button>
+    <br>
+
+
+
+</body>
+
+</html>

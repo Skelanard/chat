@@ -1,0 +1,69 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Caveat+Brush&subset=latin,latin-ext,cyrillic);
+body {
+    background-color: rgb(229, 255, 229);
+    padding-bottom: 100px;
+}
+
+#chatLog {
+    font-family: 'Caveat Brush', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#userBox {
+    width: 86%;
+    position: fixed;
+    bottom: 5%;
+    height: 6%;
+    font-family: 'Caveat Brush', sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+    flex: 0 0 auto;
+}
+
+.send {
+    width: 10%;
+    position: fixed;
+    right: 0;
+    bottom: 5%;
+    margin-top: 20px;
+    display: inline-block;
+    height: 7%;
+    vertical-align: top;
+    margin-right: 25px;
+    font-family: 'Caveat Brush', sans-serif;
+    font-weight: 700;
+    font-size: 110%;
+    font-stretch: expanded;
+    color: wheat;
+    text-decoration: none;
+    /*padding: .8em 1em calc(.8em + 3px);*/
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px wheat inset;
+    transition: 0.2s;
+    flex: 0 0 auto;
+}
+
+.send:hover {
+    background: rgb(53, 167, 110);
+}
+
+.send:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+#title {
+    align-content: center;
+    text-align: center;
+    font-size: 70px;
+    color: wheat;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: green;
+    font-family: 'Oleo Script', Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    position: -webkit-sticky;
+}
