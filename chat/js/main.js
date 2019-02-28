@@ -6,6 +6,7 @@
 
 include("/chat/js/list.js");
 
+
 var ja = "Ja: ";
 var ryszard = "Ryszard: ";
 var dontKnow = "Słuchaj, no na to nie jestem w stanie nic Ci tu powiedzieć. " +
