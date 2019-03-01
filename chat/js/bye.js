@@ -1,5 +1,5 @@
-var byebye = "To trzymaj się, zapraszam ponownie🤚"
-var bye = {
+var byebye = "To trzymaj się, zapraszam ponownie🤚"//odpowiedź na pożegnanie
+var bye = {//zbiór fraz-pożegnań
     "Na razie": "",
     "Do widzenia": "",
     "Trzymaj się": "",
