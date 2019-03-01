@@ -1,15 +1,8 @@
-var hi = "Ooo, witam prezesa!😎";
+var hi = "Ooo, witam prezesa!😎";//odpowiedź na przywitanie
 
-var hello = {
-    "cześć": "",
-    "cześć!": "",
-    "cześć!": "",
+var hello = {//zbór fraz przywitań
     "cześć": "",
     "czesc": "",
-    "czesc!": "",
-    "czesc!": "",
-    "czesc": "",
-    "dzień dobry": "",
     "dzień dobry": "",
     "dzień dobry": "",
     "siema": "",
