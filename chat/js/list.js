@@ -1,3 +1,4 @@
+//import plików dla wykorzystywania w projekcie 
 include("/chat/js/talk.js");
 
 include("/chat/js/hello.js");
@@ -16,7 +17,7 @@ include("/chat/js/ok.js");
 include("/chat/js/thanks.js");
 include("/chat/js/bye.js");
 
-
+//funkcja importująca powyższe pliki
 function include(url) {
     var script = document.createElement('script');
     script.src = url;
