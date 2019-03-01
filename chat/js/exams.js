@@ -8,6 +8,6 @@ var exams = {//zbiór fraz zapytań o terminach sesji
     "Kiedy mamy egzaminy?": "",
     "Kiedy mam egzaminy?": "",
     "Terminy egzaminów": "",
-    "Terminy sesji: "",
+    "Terminy sesji": "",
 
 };
