@@ -1,7 +1,8 @@
-var good = "No to dobrze🙂"
+var good = "No to dobrze🙂"//odpowiedź bota na rozumienie użytkownika
 
 
-var understand = {
-    "Rozumiem": "",
+var understand = {//zbiór fraz o rozumienie
     "rozumiem": "",
+    "czaję": "",
+    "czaje": "",
 };
