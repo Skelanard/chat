@@ -1,6 +1,6 @@
-var ofcourse = "No oczywiście!😉";
+var ofcourse = "No oczywiście!😉";//odpowiedź chatbota na fraze, że jst dobrze
 
-var ok = {
+var ok = {//zbór fraz że jest dobrze
     "dobrze": "",
     "ok": "",
     "dobra": "",
