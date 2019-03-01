@@ -1,15 +1,7 @@
-var yourewelcome = "Proszę bardzo 🙂"
+var yourewelcome = "Proszę bardzo 🙂"//odpowiedź na podziękowanie
 
 
-var thanks = {
-    "Dzięki": "",
-    "Dziękuję": "",
-    "Dzieki": "",
-    "Dziekuje": "",
-    "Dzięki!": "",
-    "Dziękuję!": "",
-    "Dzieki!": "",
-    "Dziekuje!": "",
+var thanks = {//zbiór fraz podziękowań
     "dzięki": "",
     "dziękuję": "",
     "dzieki": "",
@@ -18,11 +10,4 @@ var thanks = {
     "dziękuję!": "",
     "dzieki!": "",
     "dziekuje!": "",
-    "Ok, dzięki": "",
-    "bardzo dziękuję!": "",
-    "Bardzo dziękuję": "",
-    "Dziękuję bardzo": "",
-    "Dziękuję bardzo!": "",
-    "Bardzo dziękuję!": "",
-
 };
