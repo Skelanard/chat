@@ -1,6 +1,6 @@
-var hi = "Ooo, witam prezesa!😎";//odpowiedź na przywitanie
+var hi = "Ooo, witam prezesa! 😎"; //odpowiedź na przywitanie
 
-var hello = {//zbór fraz przywitań
+var hello = { //zbór fraz przywitań
     "cześć": "",
     "czesc": "",
     "dzień dobry": "",

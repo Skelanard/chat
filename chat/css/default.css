@@ -1,26 +1,30 @@
 ﻿   @import url(http://fonts.googleapis.com/css?family=Oleo+Script);
-   @import url(http://fonts.googleapis.com/css?family=Caveat+Brush&subset=latin,latin-ext,cyrillic);
+   @import url(http://fonts.googleapis.com/css?family=Caveat&subset=latin,latin-ext,cyrillic);
    body {
        background-color: rgb(229, 255, 229);
        padding-bottom: 100px;
    }
    
    #chatLog {
-       font-family: 'Caveat Brush', sans-serif;
+       font-family: 'Caveat', sans-serif;
+       font-weight: 700;
        font-size: 25px;
        margin-top: 200px;
-   } /*dizajn okna chatu*/
+   }
+   /*dizajn okna chatu*/
    
    #userBox {
        width: 86%;
        position: fixed;
        bottom: 5%;
        height: 6%;
-       font-family: 'Caveat Brush', sans-serif;
+       font-family: 'Caveat', sans-serif;
+       font-weight: 700;
        font-size: 30px;
        margin-top: 40px;
        flex: 0 0 auto;
-   } /*dizajn okna wiadomości*/
+   }
+   /*dizajn okna wiadomości*/
    
    .send {
        width: 10%;
@@ -32,7 +36,7 @@
        height: 7%;
        vertical-align: top;
        margin-right: 25px;
-       font-family: 'Caveat Brush', sans-serif;
+       font-family: 'Caveat', sans-serif;
        font-weight: 700;
        font-size: 110%;
        font-stretch: expanded;
@@ -44,16 +48,19 @@
        box-shadow: 0 -3px white;
        transition: 0.2s;
        flex: 0 0 auto;
-   } /*dizajn przycisku "Wyślij"*/
+   }
+   /*dizajn przycisku "Wyślij"*/
    
    .send:hover {
        background: rgb(53, 167, 110);
-   } /*animacja przycisku "Wyślij" po najechaniu"*/
+   }
+   /*animacja przycisku "Wyślij" po najechaniu"*/
    
    .send:active {
        background: rgb(33, 147, 90);
        box-shadow: 0 3px rgb(33, 147, 90) inset;
-   } /*animacja przycisku "Wyślij" po nacisnięciu"*/
+   }
+   /*animacja przycisku "Wyślij" po nacisnięciu"*/
    
    #title {
        align-content: center;
@@ -67,6 +74,6 @@
        margin-top: 10px;
        top: 10px;
        right: 30px;
-       position: fixed; 
+       position: fixed;
    }
    /*animacja nazwy pliku*/

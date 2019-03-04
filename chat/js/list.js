@@ -12,6 +12,8 @@ include("/chat/js/time.js");
 include("/chat/js/whereiswsei.js");
 include("/chat/js/teacoffe.js");
 include("/chat/js/understand.js");
+include("/chat/js/russian.js");
+include("/chat/js/english.js");
 include("/chat/js/workdays.js");
 include("/chat/js/ok.js");
 include("/chat/js/thanks.js");
